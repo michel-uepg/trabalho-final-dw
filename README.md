@@ -3,9 +3,9 @@
 Este repositório contém o trabalho final da disciplina de Desenvolvimento Web do 2º ano de Engenharia de Software da UEPG, um sistema acadêmico completo, incluindo a API de back-end e a interface de front-end para gerenciar alunos e notas.
 
 # Equipe
-Michel de Lima
-Rafael Elger
-André Pereira Justiniano
+- Michel de Lima
+- Rafael Elger
+- André Pereira Justiniano
 
 ## Estrutura do Projeto
 
@@ -53,15 +53,15 @@ Listar Notas: /listar-notas
 ---
 
 ## Comandos SQL para o banco de dados
-CREATE TABLE aluno (
-    ra BIGINT PRIMARY KEY,
-    nome VARCHAR(255) NOT NULL,
-    data_nasc DATE NOT NULL,
-    nota1 DECIMAL,
-    nota2 DECIMAL,
-    media DECIMAL,
-    situacao BOOLEAN
-);
+- CREATE TABLE aluno (
+-     ra BIGINT PRIMARY KEY,
+-     nome VARCHAR(255) NOT NULL,
+-     data_nasc DATE NOT NULL,
+-     nota1 DECIMAL,
+-     nota2 DECIMAL,
+-     media DECIMAL,
+-     situacao BOOLEAN
+- );
 
 ## Configuração
 
