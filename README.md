@@ -31,18 +31,18 @@ Este repositório contém o trabalho final da disciplina de Desenvolvimento Web 
 ---
 
 ## Rotas Principais
-Listar alunos: GET /api/alunos
-Cadastrar aluno: POST /api/alunos
-Editar aluno: PUT /api/alunos/{ra}
-Deletar aluno: DELETE /api/alunos/{ra}
-Lançar notas: PUT /api/alunos/lancar-notas/{ra}
+- Listar alunos: GET /api/alunos
+- Cadastrar aluno: POST /api/alunos
+- Editar aluno: PUT /api/alunos/{ra}
+- Deletar aluno: DELETE /api/alunos/{ra}
+- Lançar notas: PUT /api/alunos/lancar-notas/{ra}
 
-Frontend
-Listar Alunos: /
-Cadastrar Aluno: /cadastro
-Editar Aluno: /editar/{ra}
-Lançar Notas: /lancar-notas/{ra}
-Listar Notas: /listar-notas
+### Frontend
+- Listar Alunos: /
+- Cadastrar Aluno: /cadastro
+- Editar Aluno: /editar/{ra}
+- Lançar Notas: /lancar-notas/{ra}
+- Listar Notas: /listar-notas
 
 ## Pré-requisitos
 
@@ -53,20 +53,13 @@ Listar Notas: /listar-notas
 ---
 
 ## Comandos SQL para o banco de dados
-- CREATE TABLE aluno (
--     ra BIGINT PRIMARY KEY,
--     nome VARCHAR(255) NOT NULL,
--     data_nasc DATE NOT NULL,
--     nota1 DECIMAL,
--     nota2 DECIMAL,
--     media DECIMAL,
--     situacao BOOLEAN
-- );
-
-## Configuração
-
-### 1. Clonar o Repositório
-
 ```bash
-git clone https://github.com/michel-uepg/trabalho-final-dev-web.git
-cd trabalho-final-dev-web
+CREATE TABLE aluno (
+    ra BIGINT PRIMARY KEY,
+    nome VARCHAR(255) NOT NULL,
+    data_nasc DATE NOT NULL,
+    nota1 DECIMAL,
+    nota2 DECIMAL,
+    media DECIMAL,
+    situacao BOOLEAN
+);
