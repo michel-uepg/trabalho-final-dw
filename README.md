@@ -25,7 +25,7 @@ Este repositório contém o trabalho final da disciplina de Desenvolvimento Web 
 ### Interface Web - Front-End
 - **Listagem de Alunos**: Exibe uma lista de alunos com opções de editar, deletar e lançar notas.
 - **Cadastro de Aluno**: Formulário para adicionar novos alunos com validação de RA único.
-- **Lançamento de Notas**: Modal para inserir as notas de um aluno e calcular automaticamente a média e a situação.
+- **Lançamento de Notas**: Insere 2 notas de um aluno e calcula automaticamente a média e a situação.
 - **Listagem de Notas**: Exibe a situação de cada aluno com base em suas notas.
 
 ---
