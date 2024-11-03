@@ -27,6 +27,7 @@ Este repositório contém o trabalho final da disciplina de Desenvolvimento Web 
 - **Cadastro de Aluno**: Formulário para adicionar novos alunos com validação de RA único.
 - **Lançamento de Notas**: Insere 2 notas de um aluno e calcula automaticamente a média e a situação.
 - **Listagem de Notas**: Exibe a situação de cada aluno com base em suas notas.
+- **Pesquisar alunos**: Pesquisa um aluno pelo seu RA.
 
 ---
 
